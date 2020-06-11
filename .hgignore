@@ -1,0 +1,61 @@
+syntax: glob
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# Temporary storage #
+######################
+storage/framework/cache/*
+storage/framework/session/*
+storage/logs/*
+public/storage
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+system/cache/*
+system/logs/*
+vqmod/checked.cache
+
+# Repositories #
+################
+node_modules/*
+public/node_modules/*
+vendor/*
+system/*
+
+
+# Configuration files #
+#######################
+.env
+.project/*
+nbproject/*
+.idea/*
+Homestead.yaml
+Homestead.json
+.git/*
+.hg/*
+.htaccess.bak
+.htaccess.txt
+set_permission*.sh
+access.log
+error.log
+bootstrap/cache
+storage/debugbar
+storage/framework/sessions
+storage/framework/views
+storage/app

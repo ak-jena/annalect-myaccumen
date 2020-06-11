@@ -1,0 +1,207 @@
+/* 5 column grid
+taken from: http://stackoverflow.com/questions/10387740/five-equal-columns-in-twitter-bootstrap
+*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* colours related to accordion */
+#workflow-accordion .active-title {
+    background-color: #4FB848 !important;
+}
+
+.panel-heading a:hover, .panel-heading a:link, .panel-heading a:visited, .panel-heading a:active{
+    text-decoration: none;
+    color: #000000;
+}
+
+* { Box-sizing: Border-box }
+.sliding-content-container{
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 1108px;
+}
+
+.sliding-content{
+    display:inline-block;
+    /*border: 2px black solid;*/
+    padding: 20px;
+    width: 1108px;
+    /*height: 100px;*/
+    vertical-align: top;
+    /*background-color:pink;*/
+}
+
+/*
+used to add space between form rows in certain forms
+*/
+.med-margin-bottom{
+    margin-bottom: 60px;
+}
+
+.small-margin-bottom{
+    margin-bottom: 30px;
+}
+
+.sliding-content label{
+   white-space: normal;
+}
+
+.input-error{
+    border-color: #dd4b39;
+    box-shadow: none;
+}
+
+.label-error{
+    color: #dd4b39;
+}
+
+.required:after{
+    content:'*';
+    color:red;
+    padding-left:5px;
+}
+
+.dashboard-column{
+    background-color: #f5f5f5;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.dashboard-background{
+    background-color: #ffffff !important;
+}
+
+.vertical-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.system-message {
+    background-color: #f5f5f5;
+}
+
+.filter-bar {
+    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ffffff !important;
+}
+
+.margin-top-filter {
+    margin-top: 172px;
+}
+
+.sidebar-margin-top-filter {
+    margin-top: 137px;
+}
+
+.margin-top-standard {
+    margin-top: 50px;
+}
+
+.margin-bottom-standard {
+    margin-bottom: 50px;
+}
+
+.padding-top-small {
+    padding-top: 15px;
+}
+
+.padding-top-large {
+    padding-top: 100px;
+}
+
+.logo {
+    position: fixed;
+}
+
+.main-sidebar {
+    position: fixed;
+}
+
+.sort {
+    display: block;
+    color: #3c8dbc;
+    cursor: pointer;
+}
+
+.col-heading {
+    white-space: nowrap;
+}
+
+.orange-glow {
+    -webkit-box-shadow:0 0 15px orange;
+    -moz-box-shadow: 0 0 15px orange;
+    box-shadow:0 0 15px orange;
+}
+
+.red-glow {
+    -webkit-box-shadow:0 0 10px red;
+    -moz-box-shadow: 0 0 10px red;
+    box-shadow:0 0 10px red;
+}
+
+@keyframes flash {
+    0% {
+        box-shadow:0 0 3px rgba(51, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(255, 0, 0, 1);
+    }
+}
+
+.due {
+    animation:         flash 2s infinite; /* IE 10+, Fx 29+ */
+    animation-direction: alternate;
+}
+
+.tabulator-header .tabulator-col.column-wrap .tabulator-col-content .tabulator-col-title {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+/*!* cells *!*/
+/*.tabulator .tabulator-tableHolder .tabulator-table .tabulator-row .tabulator-cell.column-wrap {*/
+    /*white-space: normal;*/
+    /*overflow: hidden;*/
+    /*text-overflow: clip;*/
+/*}*/
+
+.highlight-calculated-column {
+    background-color: #ff7aac;
+}

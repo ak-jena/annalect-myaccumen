@@ -1,0 +1,11 @@
+#input-email-group .selectize-control{
+	border: none !important;
+	box-shadow:none !important;
+	padding: 0px 0px !important;
+}
+.selectize-control.single .selectize-input{
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset !important;
+}
+.scheduler-status:hover{cursor:help}
+
+.column-download:hover{cursor:pointer;color:#406090;}

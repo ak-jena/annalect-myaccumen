@@ -1,0 +1,52 @@
+.minerva-container{
+	max-width			: 1024px;
+	background-color	: #FAFAFA;
+	padding				: 10px 0;
+}
+
+.clickable{
+	cursor				:pointer;
+}
+
+.editable:hover{
+	cursor				: pointer;
+	background-color	: #D0D0D0;
+}
+
+/* Notifications */
+.admin-notification-element:hover{
+	background-color	: #EEE;
+}
+
+/* Editable fields in tables */
+input[type="text"].hide-field{
+	border				: 1px solid #DDD;
+	background-color	: rgba(0, 0, 0, 0.02);
+	font-style			: italic;
+	text-align			: right;
+	margin-top 			: 5px;
+}
+
+input[type="text"].hide-field:hover{
+	background-color	: rgba(0, 0, 0, 0.05);
+}
+
+select.hide-field{
+	border				: 1px solid #DDD;
+    -webkit-appearance	: none;
+    -moz-appearance		: none;
+    text-indent			: 1px;
+    text-overflow		: '';
+	background-color	: rgba(0, 0, 0, 0.02);
+	font-style			: italic;
+}
+
+select.hide-field:hover{
+	background-color	: rgba(0, 0, 0, 0.05);
+}
+
+.division_sign{
+	margin 				: 0;
+	border 				: 1px solid #CCC;
+	border-style		: inset;
+}

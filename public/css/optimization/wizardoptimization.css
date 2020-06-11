@@ -1,0 +1,7 @@
+.checkbox-custom input[type=checkbox]{display:none;}
+.editable:hover{background-color: #D0D0D0;cursor:pointer;}
+.parameter-update:hover{cursor:pointer;color:#009900;}
+.parameter-cancel:hover{cursor:pointer;color:#990000}
+.parameter-value-ok{color:#009900;}
+.parameter-value-danger{color:#990000;}
+.wizard-parameter-danger{background-color:#990000; opacity:0.4}

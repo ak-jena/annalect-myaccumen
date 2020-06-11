@@ -1,0 +1,4 @@
+.icon-trash:hover{cursor:pointer;color:#E55957;}
+.editable:hover{background-color:#C0C0C0;cursor:pointer;}
+.campaign-status:hover{cursor:help;}
+.custom-regions-list-container{max-height:350px;overflow-y:scroll;}

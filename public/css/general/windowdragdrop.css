@@ -1,0 +1,19 @@
+.window-right-list-element,.window-left-list-element{background-color:#F4F4F4;border-radius:5px;border:1px #EEE solid;}
+.window-right-list-element:hover{background-color:#EEE;cursor:pointer}
+.window-right-list-element.active-drag{background-color:#69c2fe}
+.window-right-list-element.active-drag:hover{background-color:#3992ff}
+
+.window-left-list-subelement-loading{color:#777}
+
+.window-right-list-element-over{background-color:#e4ba00;min-height:50px;}
+.edit-buttons{float:right}
+.edit-buttons-display{display:inline !important; cursor:pointer}
+
+.window-hidden{display:none}
+
+.window-left-list-element{list-style: none}
+/*.window-left-sublist-shown{list-style-image:url('/img/details_close.png');cursor:pointer}
+.window-left-sublist-hidden{list-style-image:url('/img/details_open.png');cursor:pointer}*/
+
+.window-left-list-subelement{list-style: none}
+.window-left-list-icon{display:inline;float:left;padding-top:5px;padding-right:5px;cursor:pointer}
